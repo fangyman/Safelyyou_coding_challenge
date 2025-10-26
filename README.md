@@ -42,7 +42,7 @@ A Gin-based REST API for monitoring device fleet uptime and performance, built a
 2. **Make sure you have go installed**
 
    **Windows:**
-   - Download Go from https://golang.org/dl/
+   - Download Go from <https://golang.org/dl/>
    - Run the installer (`.msi` file)
    - Add Go to your PATH (the installer usually does this automatically)
    - Open a new Command Prompt or PowerShell and verify installation:
@@ -59,7 +59,7 @@ A Gin-based REST API for monitoring device fleet uptime and performance, built a
      ```
 
    - **Option 2 - Direct download:**
-     - Download Go from https://golang.org/dl/
+     - Download Go from <https://golang.org/dl/>
      - Run the installer (`.pkg` file)
      - Add Go to your PATH by adding to your shell profile (`~/.bash_profile`, `~/.zshrc`, etc.):
 
