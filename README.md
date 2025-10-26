@@ -32,7 +32,7 @@ A Gin-based REST API for monitoring device fleet uptime and performance, built a
 
 ### Prerequisites
 
-- Python 3.8 or higher
+- Go 1.19 or higher
 - Windows (for the provided device simulator)
 
 ### Installation Steps
