@@ -139,7 +139,7 @@ This will:
 
 **Most Difficult Parts**:
 
-1. **Database design decisions** - Balancing simplicity with performance, particularly around reading and writing to the sqlite database and understanding various configurations to achieve best write speeds for the application.
+1. **Database design decisions** - Balancing simplicity with performance, particularly around reading and writing to the sqlite database and understanding various configurations to achieve best write speeds for the application. Once I learned about sqlite WAL (Write-Ahead Logging) + NORMAL mode (Synchronus mode), my emulation of the .exe file started to work within a second compared to 10 secs.
 
 2. **Go Learning curve** - Since I implemented the project in Python, I was able to quickly implement the Go version by following a similar structure to the python version with implementing ORM based models and HTTP API endpoints.
 
